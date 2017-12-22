@@ -4,8 +4,13 @@ body {
     color: #fff;
     background-color: #61122f;
 }
-hr{
+hr {
 	border-top:1px solid #61122f;
+}
+a {
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-weight: bold;
 }
  
 ul {
@@ -36,7 +41,7 @@ ul {
 	padding-top: 25px;
 }
 
-h2{
+h2 {
 	font-family: 'Lora', serif;
 	color: #557c3e;
 	font-size:1em;
@@ -49,7 +54,7 @@ h2{
 	text-align:center;
 }
 
-.menu{
+.menu {
 	margin-top: 20px;
 	background-color: #C1BAA3;
 	border: 10px;
@@ -59,12 +64,12 @@ h2{
 	
 }
 
-p{
+p {
 	color: #465037;
 	font-weight: bold;
 }
 
-.navbar-brand h1{
+.navbar-brand h1 {
 	font-family: 'Lora', serif;
 	color: #557c3e;
 	font-size:2em;
@@ -81,7 +86,7 @@ p{
 }
 
  .navbar-header button.navbar-toggle, 
- .navbar-header span.icon-bar{
+ .navbar-header span.icon-bar {
 	border-width: 2px;
 	border-style: solid;
 	border-color: #61122f !important;
@@ -95,7 +100,7 @@ p{
 	margin-right: 15px;
     clear: both;
 }
-.navbar-toggle .icon-bar+ .icon-bar{
+.navbar-toggle .icon-bar+ .icon-bar {
 	margin-top: 4px;
 }
 
@@ -132,7 +137,7 @@ p{
 	text-decoration: none;
 }
 
-#nav-list li{
+#nav-list li {
 	text-align: center;
 }
 /* end nav-list related */
