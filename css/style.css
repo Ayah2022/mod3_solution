@@ -4,6 +4,9 @@ body {
     color: #fff;
     background-color: #61122f;
 }
+hr{
+	border-top:1px solid #61122f;
+}
  
 ul {
 	 list-style: none;

@@ -13,12 +13,13 @@
 </head>
 <body>
 <header>
+<div class="container-fluid">
 <nav id="header-nav" class="navbar navbar-default" role="navigation">
-<div class="container">
 <div class="navbar-header">
 <div class="navbar-brand"><a href="index.html">
 <h1>Food,LLC</h1></a>
 </div>
+
 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
 <!--data-target&data-target are html5 API attribuute that allow js plugins or javascript code in general to get at these attributes easly
 in a standardized eay-->
@@ -27,21 +28,26 @@ in a standardized eay-->
  <span class="icon-bar"></span>
  <span class="icon-bar"></span>
  </button>
+
 </div>
 
- <div class="navbar-collapse collapse" id="collapsable-nav" aria-expanded="false">
-      <ul id="nav-list" class="nav navbar-nav">
-        <li><a href="#">Chicken</a></li>
-        <li><a href="#">Beef</a></li>
-        <li><a href="#">Suchi</a></li>
+ <div class="navbar-collapse collapse show" id="collapsable-nav" aria-expanded="false">
+      <ul id="nav-list" class="nav navbar-nav visible-xs">
+        <li class="text-center"><a href="#">Chicken</a></li>
+		<hr class="visible-xs">
+        <li class="text-center"><a href="#">Beef</a></li>
+		<hr class="visible-xs">
+        <li class="text-center"><a href="#">Suchi</a></li>
+		
       </ul><!-- nav list -->
 </div><!-- navbar collapse-->
-</div><!-- container -->
 </nav>
+</div><!-- container -->
+
 </header>
-<section>
-<div class="container">
-<h1 id="Subtitle">Our Menu</h1>
+<div class="container-fluid">
+<h1 class="text-center" id="Subtitle">Our Menu</h1>
+<div class="row">
 <div class="col-lg-4 col-md-6 col-xs-12 menu">
 <h2>Chicken</h2>
 	<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -64,8 +70,7 @@ in a standardized eay-->
 	as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
 	Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p></div>
 </div>
-</section>
-
+</div>
 
 </body>
 </html>
