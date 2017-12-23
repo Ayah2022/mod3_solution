@@ -15,15 +15,10 @@
 
 <body>
     <header>
-        <div class="container">
-            <nav id="header-nav" class="navbar navbar-default" role="navigation">
-                <div class="navbar-header">
-                    <div class="navbar-brand">
-                        <a href="index.html">
-                            <h1>Food,LLC</h1>
-                        </a>
-                    </div>
-
+        
+            <nav id="header-nav" class="navbar navbar-default" >
+                <div class="container">
+				<div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
                         <!--data-target&data-target are html5 API attribuute that allow js plugins or javascript code in general to get at these attributes easly
 in a standardized eay-->
@@ -32,27 +27,31 @@ in a standardized eay-->
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                        <a class="navbar-brand" href="index.html">
+                            <h1>Food, LLC</h1>
+                        </a>
+                </div><!-- .navbar-header -->
 
-                </div>
-
-                <div class="navbar-collapse collapse show" id="collapsable-nav" aria-expanded="false">
-                    <ul id="nav-list" class="nav navbar-nav visible-xs">
-                        <li class="text-center"><a href="#chicken">Chicken</a>
+                <div class="navbar-collapse collapse " id="collapsable-nav" aria-expanded="false">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+					
+                        <li class="text-center visible-xs"><a href="#chicken">Chicken</a>
                         </li>
                         <hr class="visible-xs">
-                        <li class="text-center"><a href="#beef">Beef</a>
+                        <li class="text-center visible-xs"><a href="#beef">Beef</a>
                         </li>
                         <hr class="visible-xs">
-                        <li class="text-center"><a href="#suchi">Suchi</a>
+                        <li class="text-center visible-xs"><a href="#suchi">Suchi</a>
                         </li>
 
                     </ul>
                     <!-- nav list -->
                 </div>
                 <!-- navbar collapse-->
+				 </div><!-- container -->
             </nav>
-        </div>
-        <!-- container -->
+       
+        
 
     </header>
     <div class="container">
